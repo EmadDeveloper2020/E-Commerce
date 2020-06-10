@@ -1,0 +1,48 @@
+header {
+    background-image: url("../../assets/Images/2.jpg");
+    background-position: center left;
+    background-size: cover;
+    height: 100vh;
+}
+.overlay {
+    height: 100%;
+    background-color: rgba(242,183,215,0.7);
+}
+.heading {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.caption {
+    height: 600px;
+}
+.categ {
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(216,126,177);
+    overflow: hidden;
+    background-color: tomato;
+}
+.categ img {
+    transition: 1s all;
+}
+.categ:hover img {
+transform: scale(1.2);
+}
+.overlaying {
+    position: absolute;
+    top: 105%;
+    left: 0;
+    background-color: violet;
+    width: 100%;
+    text-align:center;
+    font-weight: bold;
+    padding: 10px 0;
+    transition: 1s all
+}
+.categ:hover .overlaying {
+    top : 85%;
+}
+.heading {
+    color : #fff;
+    text-shadow: 0 0 5px #787878;
+}
