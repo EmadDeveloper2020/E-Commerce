@@ -14,6 +14,7 @@ header {
 }
 .caption {
     height: 600px;
+    
 }
 .categ {
     position: relative;
@@ -45,4 +46,20 @@ transform: scale(1.2);
 .heading {
     color : #fff;
     text-shadow: 0 0 5px #787878;
+}
+
+
+/* ---------------mario----------- */
+.w{
+    
+    width: 90% ;
+}
+.h{
+    height: 30vh;
+}
+.hh{
+    height: 550px;
+}
+.checked , .far , .fa-star-half-alt , .f{
+    color: rgb(189, 189, 0);
 }
