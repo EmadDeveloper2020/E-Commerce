@@ -1,12 +1,12 @@
-header {
+header .home {
     background-image: url("../../assets/Images/2.jpg");
     background-position: center left;
-    background-size: cover;
-    height: 100vh;
+    background-size: 100% 100%;
+    min-height: 100vh;
 }
 
-.overlay {
-    height: 100%;
+header .home .overlay {
+    min-height: 100vh;
     background-color: rgba(242, 183, 215, 0.7);
 }
 
@@ -16,7 +16,7 @@ header {
 }
 
 .caption {
-    height: 600px;
+    height: 100%;
     
 }
 
