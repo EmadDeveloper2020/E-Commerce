@@ -10,10 +10,10 @@ import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { FooterComponent } from './footer/footer.component';
-import { SignUpComponent } from './sign-up/sign-up.component';
-import { SignInComponent } from './sign-in/sign-in.component';
-import { HttpClientModule } from '@angular/common/http'
-import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { MenComponent } from './men/men.component';
+import { WomenComponent } from './women/women.component';
+import { KidsComponent } from './kids/kids.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -25,15 +25,14 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
     LoginComponent,
     RegisterComponent,
     FooterComponent,
-    SignUpComponent,
-    SignInComponent
+    MenComponent,
+    WomenComponent,
+    KidsComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    FormsModule,
-    ReactiveFormsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

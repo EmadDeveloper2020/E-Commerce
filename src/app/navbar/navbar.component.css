@@ -1,15 +1,13 @@
 .bg-dark {
-    background-color: transparent !important;
+    background-color: #d93d93 !important;
 }
 .nav-link {
-    color: rgb(216,126,177)!important;
+    color: #f2f2f2!important;
     font-size: 1.2rem;
     font-weight: bold;
-    text-shadow: 0 0 5px #fff;
 }
 .nav-link:hover {
-    color: #fff !important;
-    text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 7px #000;
 }
 .custom {
     color : #000;

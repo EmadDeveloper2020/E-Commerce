@@ -17,7 +17,7 @@ header .home .overlay {
 
 .caption {
     height: 100%;
-    
+    padding-top: 70px !important;
 }
 
 .categ {
