@@ -14,6 +14,7 @@ import { MenComponent } from './men/men.component';
 import { WomenComponent } from './women/women.component';
 import { KidsComponent } from './kids/kids.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
     MenComponent,
     WomenComponent,
     KidsComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
