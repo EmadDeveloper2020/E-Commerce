@@ -8,6 +8,8 @@ import { MenComponent } from './men/men.component';
 import { WomenComponent } from './women/women.component';
 import { KidsComponent } from './kids/kids.component';
 import { CartComponent } from './cart/cart.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 
 
@@ -21,7 +23,9 @@ const routes: Routes =
     { path: "men", component: MenComponent },
     { path: "women", component: WomenComponent },
     { path: "kids", component: KidsComponent },
-    { path: "**", component: NotfoundComponent },
+    { path: "login", component: SignInComponent },
+    { path: "signup", component: SignUpComponent },
+    { path: "**", component: NotfoundComponent }
   ];
 
 @NgModule({
