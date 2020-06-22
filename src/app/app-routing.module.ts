@@ -15,7 +15,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 
 const routes: Routes =
   [
-    { path: '', redirectTo: 'home', pathMatch: 'full' },
+    { path: '', redirectTo: 'login', pathMatch: 'full' },
+    { path: "login", component: SignInComponent },
     { path: "home", component: HomeComponent },
     { path: "about", component: AboutComponent },
     { path: "contact", component: ContactComponent },
@@ -23,7 +24,6 @@ const routes: Routes =
     { path: "men", component: MenComponent },
     { path: "women", component: WomenComponent },
     { path: "kids", component: KidsComponent },
-    { path: "login", component: SignInComponent },
     { path: "signup", component: SignUpComponent },
     { path: "**", component: NotfoundComponent }
   ];

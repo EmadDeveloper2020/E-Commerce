@@ -8,6 +8,11 @@
     text-shadow: 0 0 5px #787878;
     position: relative;
 }
+.heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #d93d93 !important;
+}
 
 #contact-us h2::after {
     content: "";

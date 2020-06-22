@@ -13,6 +13,7 @@ header .home .overlay {
 .heading {
     font-size: 3rem;
     font-weight: bold;
+    color: #d93d93 !important;
 }
 
 .caption {
